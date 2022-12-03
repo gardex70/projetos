@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p {
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
+}
+
+header > p > a {
+    color: White;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 60px;
+    font-family: var(--fonte3);
+    font-size: 3.3vw;
+}
+
+main p {
+    padding-left: 30px;
+    padding-bottom: 100px;
+    line-height: 2em;
+}
+
+.imagem-parallax {
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow:inset 4px 4px 12px rgba(0, 0, 0, 0.500);
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+.texto-parallax {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.581);
+    width: 40%;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.texto-parallax > p {
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 2px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
